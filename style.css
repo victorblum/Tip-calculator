@@ -7,6 +7,19 @@
     background-color: #360160;
     width: 500px;
     box-sizing: border-box;
+    
+}
+ 
+.up__button_eng, .up__button_rus {
+    position: relative;
+    left: 360px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 2px solid white;
 }
 
 .title {
@@ -55,14 +68,32 @@
     border: none;
     background-color: #7C7A7A;
     color: #fff;
+    cursor: pointer;
 }
 
 .form__button_main {
     background-color: #FFDC40;
-    color: #000;
+    color: #360160;
+    width: calc(50% - 10px);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding: 19px 0;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
 }
 
-.results__item {
+.results__item_tip {
+    display: flex;
+    align-items: baseline;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.results__item_total {
     display: flex;
     align-items: baseline;
     color: #fff;
@@ -75,7 +106,14 @@
     margin: 0;
 }
 
-.results__value {
+.results__value_tip {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0;
+    width: 130px;
+}
+
+.results__value_total {
     font-size: 34px;
     font-weight: 700;
     margin: 0;

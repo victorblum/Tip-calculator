@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Tip Calculator</title>
@@ -7,6 +7,9 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="up__buttons">
+            <input class="up__button_eng" type="image" src="photo/eng.jpeg">
+        </div>
         <h1 class="title">Калькулятор чаевых</h1>
         <div class="form">
             <label class="form__label">
@@ -16,6 +19,7 @@
             <label class="form__label">
                 Качество обслуживания
                 <select class="form__input">
+                    <option style="display:none">
                     <option value="0">Плохое (0%)</option>
                     <option value="5">Нормальное (5%)</option>
                     <option value="10">Хорошее (10%)</option>
@@ -27,22 +31,23 @@
                 <input class="form__input" type="number" />
             </label>
             <div class="form__buttons">
-                <button class="form__button form__button_main">Посчитать</button>
+                <button class="form__button_main">Посчитать</button>
                 <button class="form__button">Сбросить</button>
             </div>
         </div>
         <div class="results">
-            <div class="results__item results__item_tip">
+            <div class="results__item_tip">
                 <p class="results__name">Чаевые:</p>
-                <p class="results__value">___₽</p>
+                <p class="results__value_tip">___₽</p>
                 <p class="results__note">(с каждого)</p>
             </div>
-            <div class="results__item results__item_total">
+            <div class="results__item_total">
                 <p class="results__name">Всего:</p>
-                <p class="results__value">___₽</p>
+                <p class="results__value_total">___₽</p>
                 <p class="results__note">(с каждого)</p>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
