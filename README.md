@@ -1,1 +1,1 @@
-<img src="https://j.gifs.com/mqZD2G.gif" />
+<img src="https://github.com/victorblum/Tip-calculator/blob/main/photo/Preview.gif" />
