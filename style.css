@@ -124,3 +124,13 @@
     font-size: 18px;
     margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 425px;
+    }
+    .up__button_eng, .up__button_rus {
+        position: relative;
+        left: 290px;
+    }
+}
