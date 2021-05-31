@@ -1,1 +1,1 @@
-https://relaxed-dijkstra-968554.netlify.app
+https://blum-tip-calculator.netlify.app
